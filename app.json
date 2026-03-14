@@ -19,7 +19,8 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.pchaigneau.reactnativetemperatureconverter"
     },
     "web": {
       "output": "static",
@@ -49,6 +50,12 @@
       "eas": {
         "projectId": "76fcfb38-4e4f-4949-8614-46268a606aec"
       }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/76fcfb38-4e4f-4949-8614-46268a606aec"
     }
   }
 }
